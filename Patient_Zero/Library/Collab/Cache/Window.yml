@@ -1,0 +1,430 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffe70aba2e7074048aca5de573b64a59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SimpleSelectedItems:
+    m_Keys:
+    - Assets/Animations.meta
+    - Assets/Animations/Assault_Rifle_01.meta
+    - Assets/Animations/Assault_Rifle_01/assault_rifle_01.controller
+    - Assets/Animations/Assault_Rifle_01/assault_rifle_01.controller.meta
+    - Assets/Animations/Handgun_01.meta
+    - Assets/Animations/Handgun_01/handgun_01.controller
+    - Assets/Animations/Handgun_01/handgun_01.controller.meta
+    - Assets/Animations/Handgun_01/handgun_01_slider.mask
+    - Assets/Animations/Handgun_01/handgun_01_slider.mask.meta
+    - Assets/Animations/target_down.anim
+    - Assets/Animations/target_down.anim.meta
+    - Assets/Animations/target_up.anim
+    - Assets/Animations/target_up.anim.meta
+    - Assets/Components.meta
+    - Assets/Components/Demo_Scene_Components.meta
+    - Assets/Components/Materials.meta
+    - Assets/Components/Materials/Arm_Materials.meta
+    - Assets/Components/Materials/Arm_Materials/Arms Material.mat
+    - Assets/Components/Materials/Arm_Materials/Arms Material.mat.meta
+    - Assets/Components/Materials/Bullet_Impact_Materials.meta
+    - Assets/Components/Materials/Bullet_Impact_Materials/Metal_Bullet_Hole_Particle.mat
+    - Assets/Components/Materials/Bullet_Impact_Materials/Metal_Bullet_Hole_Particle.mat.meta
+    - Assets/Components/Materials/Bullet_Materials.meta
+    - Assets/Components/Materials/Bullet_Materials/BulletGlowMaterial.mat
+    - Assets/Components/Materials/Bullet_Materials/BulletGlowMaterial.mat.meta
+    - Assets/Components/Materials/Bullet_Materials/Bullet_Material.mat
+    - Assets/Components/Materials/Bullet_Materials/Bullet_Material.mat.meta
+    - Assets/Components/Materials/Demo Scene Material.mat
+    - Assets/Components/Materials/Demo Scene Material.mat.meta
+    - Assets/Components/Materials/Guns Material.mat
+    - Assets/Components/Materials/Guns Material.mat.meta
+    - Assets/Components/Materials/Particles.meta
+    - Assets/Components/Materials/Particles/Burn_Mark_Particle.mat
+    - Assets/Components/Materials/Particles/Burn_Mark_Particle.mat.meta
+    - Assets/Components/Materials/Particles/Ember_Particle.mat
+    - Assets/Components/Materials/Particles/Ember_Particle.mat.meta
+    - Assets/Components/Materials/Particles/Flame_Particle.mat
+    - Assets/Components/Materials/Particles/Flame_Particle.mat.meta
+    - Assets/Components/Materials/Particles/Metal_Bullet_Hole_Particle.mat
+    - Assets/Components/Materials/Particles/Metal_Bullet_Hole_Particle.mat.meta
+    - Assets/Components/Materials/Particles/MuzzleFlash.mat
+    - Assets/Components/Materials/Particles/MuzzleFlash.mat.meta
+    - Assets/Components/Materials/Particles/Shockwave Particle Material.mat
+    - Assets/Components/Materials/Particles/Shockwave Particle Material.mat.meta
+    - Assets/Components/Materials/Particles/Smoke_Particle.mat
+    - Assets/Components/Materials/Particles/Smoke_Particle.mat.meta
+    - Assets/Components/Materials/Particles/Smoke_SpriteSheet.mat
+    - Assets/Components/Materials/Particles/Smoke_SpriteSheet.mat.meta
+    - Assets/Components/Materials/Particles/SparkParticles.mat
+    - Assets/Components/Materials/Particles/SparkParticles.mat.meta
+    - Assets/Components/Materials/Physics_Materials.meta
+    - Assets/Components/Materials/Physics_Materials/Grenade Physics.physicMaterial
+    - Assets/Components/Materials/Physics_Materials/Grenade Physics.physicMaterial.meta
+    - Assets/Components/Materials/Prototype_Materials.meta
+    - Assets/Components/Materials/Prototype_Materials/1x1_Grid_Material.mat
+    - Assets/Components/Materials/Prototype_Materials/1x1_Grid_Material.mat.meta
+    - Assets/Components/Materials/Prototype_Materials/4x4_Grid_Material.mat
+    - Assets/Components/Materials/Prototype_Materials/4x4_Grid_Material.mat.meta
+    - Assets/Components/Materials/Prototype_Materials/6x6_Grid_Material.mat
+    - Assets/Components/Materials/Prototype_Materials/6x6_Grid_Material.mat.meta
+    - Assets/Components/Materials/Weapon_Showcase_Materials.meta
+    - Assets/Components/Materials/Weapon_Showcase_Materials/Weapon_Showcase_Ground_Material.mat
+    - Assets/Components/Materials/Weapon_Showcase_Materials/Weapon_Showcase_Ground_Material.mat.meta
+    - Assets/Components/Meshes.meta
+    - Assets/Components/Meshes/Arms.meta
+    - Assets/Components/Meshes/Arms/Assault_Rifle_01.meta
+    - Assets/Components/Meshes/Arms/Assault_Rifle_01/arms_assault_rifle_01.fbx
+    - Assets/Components/Meshes/Arms/Assault_Rifle_01/arms_assault_rifle_01.fbx.meta
+    - Assets/Components/Meshes/Arms/Handgun_01.meta
+    - Assets/Components/Meshes/Arms/Handgun_01/arms_handgun_01.fbx
+    - Assets/Components/Meshes/Arms/Handgun_01/arms_handgun_01.fbx.meta
+    - Assets/Components/Meshes/Arms/Materials.meta
+    - Assets/Components/Meshes/Arms/Materials/Arms Material.mat
+    - Assets/Components/Meshes/Arms/Materials/Arms Material.mat.meta
+    - Assets/Components/Meshes/Bullet_Prefab.meta
+    - Assets/Components/Meshes/Bullet_Prefab/ico_mesh.fbx
+    - Assets/Components/Meshes/Bullet_Prefab/ico_mesh.fbx.meta
+    - Assets/Components/Meshes/Bullets_&_Casings.meta
+    - Assets/Components/Meshes/Bullets_&_Casings/big_bullet.fbx
+    - Assets/Components/Meshes/Bullets_&_Casings/big_bullet.fbx.meta
+    - Assets/Components/Meshes/Bullets_&_Casings/big_bullet_casing.fbx
+    - Assets/Components/Meshes/Bullets_&_Casings/big_bullet_casing.fbx.meta
+    - Assets/Components/Meshes/Bullets_&_Casings/small_bullet.fbx
+    - Assets/Components/Meshes/Bullets_&_Casings/small_bullet.fbx.meta
+    - Assets/Components/Meshes/Bullets_&_Casings/small_bullet_casing.fbx
+    - Assets/Components/Meshes/Bullets_&_Casings/small_bullet_casing.fbx.meta
+    - Assets/Components/Meshes/Grenades.meta
+    - Assets/Components/Meshes/Grenades/hand_grenade.fbx
+    - Assets/Components/Meshes/Grenades/hand_grenade.fbx.meta
+    - Assets/Components/Meshes/Guns.meta
+    - Assets/Components/Meshes/Guns/Assault_Rifle_01.meta
+    - Assets/Components/Meshes/Guns/Assault_Rifle_01/assault_rifle_01.fbx
+    - Assets/Components/Meshes/Guns/Assault_Rifle_01/assault_rifle_01.fbx.meta
+    - Assets/Components/Meshes/Guns/Handgun_01.meta
+    - Assets/Components/Meshes/Guns/Handgun_01/handgun_01.fbx
+    - Assets/Components/Meshes/Guns/Handgun_01/handgun_01.fbx.meta
+    - Assets/Components/Meshes/Mags.meta
+    - Assets/Components/Meshes/Mags/Assault_Rifle_01_Mags.meta
+    - Assets/Components/Meshes/Mags/Assault_Rifle_01_Mags/assault_rifle_01_mag_empty.fbx
+    - Assets/Components/Meshes/Mags/Assault_Rifle_01_Mags/assault_rifle_01_mag_empty.fbx.meta
+    - Assets/Components/Meshes/Mags/Assault_Rifle_01_Mags/assault_rifle_01_mag_full.fbx
+    - Assets/Components/Meshes/Mags/Assault_Rifle_01_Mags/assault_rifle_01_mag_full.fbx.meta
+    - Assets/Components/Meshes/Mags/Handgun_01_Mags.meta
+    - Assets/Components/Meshes/Mags/Handgun_01_Mags/handgun_01_mag_empty.fbx
+    - Assets/Components/Meshes/Mags/Handgun_01_Mags/handgun_01_mag_empty.fbx.meta
+    - Assets/Components/Meshes/Mags/Handgun_01_Mags/handgun_01_mag_full.fbx
+    - Assets/Components/Meshes/Mags/Handgun_01_Mags/handgun_01_mag_full.fbx.meta
+    - Assets/Components/Meshes/Tactical_Knife.meta
+    - Assets/Components/Meshes/Tactical_Knife/tactical_knife.fbx
+    - Assets/Components/Meshes/Tactical_Knife/tactical_knife.fbx.meta
+    - Assets/Components/Particles.meta
+    - Assets/Components/Particles/Burn_Mark_Particle_Texture.png
+    - Assets/Components/Particles/Burn_Mark_Particle_Texture.png.meta
+    - Assets/Components/Particles/Ember_Particle_Texture.png
+    - Assets/Components/Particles/Ember_Particle_Texture.png.meta
+    - Assets/Components/Particles/Flame_Particle_Texture.png
+    - Assets/Components/Particles/Flame_Particle_Texture.png.meta
+    - Assets/Components/Particles/Metal_Bullet_Hole_Particle_Texture.png
+    - Assets/Components/Particles/Metal_Bullet_Hole_Particle_Texture.png.meta
+    - Assets/Components/Particles/Shockwave Particle Texture.png
+    - Assets/Components/Particles/Shockwave Particle Texture.png.meta
+    - Assets/Components/Particles/Smoke_Particle_Spritesheet2.png
+    - Assets/Components/Particles/Smoke_Particle_Spritesheet2.png.meta
+    - Assets/Components/Particles/Smoke_Particle_Texture.png
+    - Assets/Components/Particles/Smoke_Particle_Texture.png.meta
+    - Assets/Components/Particles/Smoke_Sprite_Texture_02.png
+    - Assets/Components/Particles/Smoke_Sprite_Texture_02.png.meta
+    - Assets/Components/Particles/SparksParticleTexture2.png
+    - Assets/Components/Particles/SparksParticleTexture2.png.meta
+    - Assets/Components/Particles/bullet_glow_texture_bg.png
+    - Assets/Components/Particles/bullet_glow_texture_bg.png.meta
+    - Assets/Components/Textures_&_Sprites.meta
+    - Assets/Components/Textures_&_Sprites/Arm_Textures.meta
+    - Assets/Components/Textures_&_Sprites/Arm_Textures/Arm_Texture_Digital_Camo_Desert_01.png
+    - Assets/Components/Textures_&_Sprites/Arm_Textures/Arm_Texture_Digital_Camo_Desert_01.png.meta
+    - Assets/Components/Textures_&_Sprites/Arm_Textures/Arm_Texture_Digital_Camo_Desert_02.png
+    - Assets/Components/Textures_&_Sprites/Arm_Textures/Arm_Texture_Digital_Camo_Desert_02.png.meta
+    - Assets/Components/Textures_&_Sprites/Arm_Textures/Arm_Texture_Digital_Camo_Desert_03.png
+    - Assets/Components/Textures_&_Sprites/Arm_Textures/Arm_Texture_Digital_Camo_Desert_03.png.meta
+    - Assets/Components/Textures_&_Sprites/Low Poly FPS Pack Texture.png
+    - Assets/Components/Textures_&_Sprites/Low Poly FPS Pack Texture.png.meta
+    - Assets/Components/Textures_&_Sprites/Prototype_Textures.meta
+    - Assets/Components/Textures_&_Sprites/Prototype_Textures/Prototype_Texture 1.png
+    - Assets/Components/Textures_&_Sprites/Prototype_Textures/Prototype_Texture 1.png.meta
+    - Assets/Components/Textures_&_Sprites/Scene Texture.png
+    - Assets/Components/Textures_&_Sprites/Scene Texture.png.meta
+    - Assets/Components/Textures_&_Sprites/Weapon_Showcase_Textures.meta
+    - Assets/Components/Textures_&_Sprites/Weapon_Showcase_Textures/Weapon_Showcase_Shadow_Texture.png
+    - Assets/Components/Textures_&_Sprites/Weapon_Showcase_Textures/Weapon_Showcase_Shadow_Texture.png.meta
+    - Assets/Components/Textures_&_Sprites/explosive_barrel.fbx
+    - Assets/Components/Textures_&_Sprites/explosive_barrel.fbx.meta
+    - Assets/Components/Textures_&_Sprites/explosive_barrel_destructible.fbx
+    - Assets/Components/Textures_&_Sprites/explosive_barrel_destructible.fbx.meta
+    - Assets/Components/Textures_&_Sprites/target.fbx
+    - Assets/Components/Textures_&_Sprites/target.fbx.meta
+    - Assets/Low Poly FPS Pack - Free (Sample).meta
+    - Assets/Low Poly FPS Pack - Free (Sample)/Components/Animators.meta
+    - Assets/Low Poly FPS Pack - Free (Sample)/Components/Audio.meta
+    - Assets/Low Poly FPS Pack - Free (Sample)/Components/Demo_Scene_Components.meta
+    - Assets/Low Poly FPS Pack - Free (Sample)/Components/Demo_Scene_Components/Animations.meta
+    - Assets/Low Poly FPS Pack - Free (Sample)/Components/Demo_Scene_Components/Animations/target_down.anim
+    - Assets/Low Poly FPS Pack - Free (Sample)/Components/Demo_Scene_Components/Animations/target_down.anim.meta
+    - Assets/Low Poly FPS Pack - Free (Sample)/Components/Demo_Scene_Components/Animations/target_up.anim
+    - Assets/Low Poly FPS Pack - Free (Sample)/Components/Demo_Scene_Components/Animations/target_up.anim.meta
+    - Assets/Low Poly FPS Pack - Free (Sample)/Components/Demo_Scene_Components/Materials.meta
+    - Assets/Low Poly FPS Pack - Free (Sample)/Components/Demo_Scene_Components/Materials/Demo
+      Scene Material.mat
+    - Assets/Low Poly FPS Pack - Free (Sample)/Components/Demo_Scene_Components/Materials/Demo
+      Scene Material.mat.meta
+    - Assets/Low Poly FPS Pack - Free (Sample)/Components/Demo_Scene_Components/Materials/Prototype_Materials.meta
+    - Assets/Low Poly FPS Pack - Free (Sample)/Components/Demo_Scene_Components/Materials/Prototype_Materials/1x1_Grid_Material.mat
+    - Assets/Low Poly FPS Pack - Free (Sample)/Components/Demo_Scene_Components/Materials/Prototype_Materials/1x1_Grid_Material.mat.meta
+    - Assets/Low Poly FPS Pack - Free (Sample)/Components/Demo_Scene_Components/Materials/Prototype_Materials/4x4_Grid_Material.mat
+    - Assets/Low Poly FPS Pack - Free (Sample)/Components/Demo_Scene_Components/Materials/Prototype_Materials/4x4_Grid_Material.mat.meta
+    - Assets/Low Poly FPS Pack - Free (Sample)/Components/Demo_Scene_Components/Materials/Prototype_Materials/6x6_Grid_Material.mat
+    - Assets/Low Poly FPS Pack - Free (Sample)/Components/Demo_Scene_Components/Materials/Prototype_Materials/6x6_Grid_Material.mat.meta
+    - Assets/Low Poly FPS Pack - Free (Sample)/Components/Demo_Scene_Components/Materials/Weapon_Showcase_Materials.meta
+    - Assets/Low Poly FPS Pack - Free (Sample)/Components/Demo_Scene_Components/Materials/Weapon_Showcase_Materials/Weapon_Showcase_Ground_Material.mat
+    - Assets/Low Poly FPS Pack - Free (Sample)/Components/Demo_Scene_Components/Materials/Weapon_Showcase_Materials/Weapon_Showcase_Ground_Material.mat.meta
+    - Assets/Low Poly FPS Pack - Free (Sample)/Components/Demo_Scene_Components/Meshes.meta
+    - Assets/Low Poly FPS Pack - Free (Sample)/Components/Demo_Scene_Components/Meshes/explosive_barrel.fbx
+    - Assets/Low Poly FPS Pack - Free (Sample)/Components/Demo_Scene_Components/Meshes/explosive_barrel.fbx.meta
+    - Assets/Low Poly FPS Pack - Free (Sample)/Components/Demo_Scene_Components/Meshes/explosive_barrel_destructible.fbx
+    - Assets/Low Poly FPS Pack - Free (Sample)/Components/Demo_Scene_Components/Meshes/explosive_barrel_destructible.fbx.meta
+    - Assets/Low Poly FPS Pack - Free (Sample)/Components/Demo_Scene_Components/Meshes/target.fbx
+    - Assets/Low Poly FPS Pack - Free (Sample)/Components/Demo_Scene_Components/Meshes/target.fbx.meta
+    - Assets/Low Poly FPS Pack - Free (Sample)/Components/Demo_Scene_Components/Scripts.meta
+    - Assets/Low Poly FPS Pack - Free (Sample)/Components/Demo_Scene_Components/Textures_&_Sprites.meta
+    - Assets/Low Poly FPS Pack - Free (Sample)/Components/Demo_Scene_Components/Textures_&_Sprites/Demo
+      Scene Texture.png
+    - Assets/Low Poly FPS Pack - Free (Sample)/Components/Demo_Scene_Components/Textures_&_Sprites/Demo
+      Scene Texture.png.meta
+    - Assets/Low Poly FPS Pack - Free (Sample)/Components/Demo_Scene_Components/Textures_&_Sprites/Prototype_Textures.meta
+    - Assets/Low Poly FPS Pack - Free (Sample)/Components/Demo_Scene_Components/Textures_&_Sprites/Prototype_Textures/Prototype_Texture
+      1.png
+    - Assets/Low Poly FPS Pack - Free (Sample)/Components/Demo_Scene_Components/Textures_&_Sprites/Prototype_Textures/Prototype_Texture
+      1.png.meta
+    - Assets/Low Poly FPS Pack - Free (Sample)/Components/Demo_Scene_Components/Textures_&_Sprites/Weapon_Showcase_Textures.meta
+    - Assets/Low Poly FPS Pack - Free (Sample)/Components/Demo_Scene_Components/Textures_&_Sprites/Weapon_Showcase_Textures/Weapon_Showcase_Shadow_Texture.png
+    - Assets/Low Poly FPS Pack - Free (Sample)/Components/Demo_Scene_Components/Textures_&_Sprites/Weapon_Showcase_Textures/Weapon_Showcase_Shadow_Texture.png.meta
+    - Assets/Low Poly FPS Pack - Free (Sample)/Components/Scripts.meta
+    - Assets/Low Poly FPS Pack - Free (Sample)/Components/Textures_&_Sprites/Low
+      Poly FPS Pack Texture.png
+    - Assets/Low Poly FPS Pack - Free (Sample)/Components/Textures_&_Sprites/Low
+      Poly FPS Pack Texture.png.meta
+    - Assets/Low Poly FPS Pack - Free (Sample)/Components/Textures_&_Sprites/UI.meta
+    - Assets/Low Poly FPS Pack - Free (Sample)/Demo_Scenes.meta
+    - Assets/Low Poly FPS Pack - Free (Sample)/Demo_Scenes/Prefabs.meta
+    - Assets/Low Poly FPS Pack - Free (Sample)/Demo_Scenes/Weapon_Demo_Scenes.meta
+    - Assets/Low Poly FPS Pack - Free (Sample)/Demo_Scenes/Weapon_Demo_Scenes/Assault_Rifle_01_Demo.meta
+    - Assets/Low Poly FPS Pack - Free (Sample)/Demo_Scenes/Weapon_Demo_Scenes/Assault_Rifle_01_Demo/Assault_Rifle_01_Demo.unity
+    - Assets/Low Poly FPS Pack - Free (Sample)/Demo_Scenes/Weapon_Demo_Scenes/Assault_Rifle_01_Demo/Assault_Rifle_01_Demo.unity.meta
+    - Assets/Low Poly FPS Pack - Free (Sample)/Demo_Scenes/Weapon_Demo_Scenes/Assault_Rifle_01_Demo/Assault_Rifle_01_Model_Showcase.meta
+    - Assets/Low Poly FPS Pack - Free (Sample)/Demo_Scenes/Weapon_Demo_Scenes/Assault_Rifle_01_Demo/Assault_Rifle_01_Model_Showcase/Assault_Rifle_01_Model_Showcase.unity
+    - Assets/Low Poly FPS Pack - Free (Sample)/Demo_Scenes/Weapon_Demo_Scenes/Assault_Rifle_01_Demo/Assault_Rifle_01_Model_Showcase/Assault_Rifle_01_Model_Showcase.unity.meta
+    - Assets/Low Poly FPS Pack - Free (Sample)/Demo_Scenes/Weapon_Demo_Scenes/Handgun_01_Demo.meta
+    - Assets/Low Poly FPS Pack - Free (Sample)/Demo_Scenes/Weapon_Demo_Scenes/Handgun_01_Demo/Handgun_01_Demo.unity
+    - Assets/Low Poly FPS Pack - Free (Sample)/Demo_Scenes/Weapon_Demo_Scenes/Handgun_01_Demo/Handgun_01_Demo.unity.meta
+    - Assets/Low Poly FPS Pack - Free (Sample)/Demo_Scenes/Weapon_Demo_Scenes/Handgun_01_Demo/Handgun_01_Model_Showcase.meta
+    - Assets/Low Poly FPS Pack - Free (Sample)/Demo_Scenes/Weapon_Demo_Scenes/Handgun_01_Demo/Handgun_01_Model_Showcase/Handgun_01_Model_Showcase.unity
+    - Assets/Low Poly FPS Pack - Free (Sample)/Demo_Scenes/Weapon_Demo_Scenes/Handgun_01_Demo/Handgun_01_Model_Showcase/Handgun_01_Model_Showcase.unity.meta
+    - Assets/Low Poly FPS Pack - Free (Sample)/How To Use - Low Poly FPS Pack - Free
+      (Sample).pdf
+    - Assets/Low Poly FPS Pack - Free (Sample)/How To Use - Low Poly FPS Pack - Free
+      (Sample).pdf.meta
+    - Assets/Low Poly FPS Pack - Free (Sample)/Low Poly FPS Pack - Free (Sample)
+      Documentation.pdf
+    - Assets/Low Poly FPS Pack - Free (Sample)/Low Poly FPS Pack - Free (Sample)
+      Documentation.pdf.meta
+    - Assets/Low Poly FPS Pack - Free (Sample)/Prefabs.meta
+    - Assets/Low Poly FPS Pack - Free (Sample)/Prefabs/Example_Prefabs.meta
+    - Assets/Low Poly FPS Pack - Free (Sample)/Prefabs/Example_Prefabs/Arms/Assault_Rifle_01_Example_Prefab.meta
+    - Assets/Low Poly FPS Pack - Free (Sample)/Prefabs/Example_Prefabs/Arms/Assault_Rifle_01_Example_Prefab/Assault_Rifle_01_FPSController.prefab
+    - Assets/Low Poly FPS Pack - Free (Sample)/Prefabs/Example_Prefabs/Arms/Assault_Rifle_01_Example_Prefab/Assault_Rifle_01_FPSController.prefab.meta
+    - Assets/Prefabs/Arms.meta
+    - Assets/Prefabs/Arms/Handgun_01_Example_Prefab.meta
+    - Assets/Prefabs/Arms/Handgun_01_Example_Prefab/Handgun_01_FPSController.prefab
+    - Assets/Prefabs/Arms/Handgun_01_Example_Prefab/Handgun_01_FPSController.prefab.meta
+    - Assets/Prefabs/Assault_Rifle_Controller.prefab
+    - Assets/Prefabs/Assault_Rifle_Controller.prefab.meta
+    - Assets/Prefabs/Bullet_Impacts.meta
+    - Assets/Prefabs/Bullet_Impacts/Metal Impact Prefab.prefab
+    - Assets/Prefabs/Bullet_Impacts/Metal Impact Prefab.prefab.meta
+    - Assets/Prefabs/Casing_Prefabs.meta
+    - Assets/Prefabs/Casing_Prefabs/Big_Casing_Prefab.prefab
+    - Assets/Prefabs/Casing_Prefabs/Big_Casing_Prefab.prefab.meta
+    - Assets/Prefabs/Casing_Prefabs/Small_Casing_Prefab.prefab
+    - Assets/Prefabs/Casing_Prefabs/Small_Casing_Prefab.prefab.meta
+    - Assets/Prefabs/Explosions.meta
+    - Assets/Prefabs/Explosions/Barrel Explosion Prefab.prefab
+    - Assets/Prefabs/Explosions/Barrel Explosion Prefab.prefab.meta
+    - Assets/Prefabs/Explosions/Explosion Prefab.prefab
+    - Assets/Prefabs/Explosions/Explosion Prefab.prefab.meta
+    - Assets/Prefabs/Explosive Barrel (Destroyed).prefab
+    - Assets/Prefabs/Explosive Barrel (Destroyed).prefab.meta
+    - Assets/Prefabs/Explosive Barrel.prefab
+    - Assets/Prefabs/Explosive Barrel.prefab.meta
+    - Assets/Prefabs/Grenades.meta
+    - Assets/Prefabs/Grenades/Hand_Grenade_Prefab.prefab
+    - Assets/Prefabs/Grenades/Hand_Grenade_Prefab.prefab.meta
+    - Assets/Prefabs/Handgun_Controller.prefab
+    - Assets/Prefabs/Handgun_Controller.prefab.meta
+    - Assets/Prefabs/Models_Only.meta
+    - Assets/Prefabs/Models_Only/Bullets_&_Casings.meta
+    - Assets/Prefabs/Models_Only/Bullets_&_Casings/Big_Bullet.prefab
+    - Assets/Prefabs/Models_Only/Bullets_&_Casings/Big_Bullet.prefab.meta
+    - Assets/Prefabs/Models_Only/Bullets_&_Casings/Big_Bullet_Casing.prefab
+    - Assets/Prefabs/Models_Only/Bullets_&_Casings/Big_Bullet_Casing.prefab.meta
+    - Assets/Prefabs/Models_Only/Bullets_&_Casings/Small_Bullet.prefab
+    - Assets/Prefabs/Models_Only/Bullets_&_Casings/Small_Bullet.prefab.meta
+    - Assets/Prefabs/Models_Only/Bullets_&_Casings/Small_Bullet_Casing.prefab
+    - Assets/Prefabs/Models_Only/Bullets_&_Casings/Small_Bullet_Casing.prefab.meta
+    - Assets/Prefabs/Models_Only/Grenades.meta
+    - Assets/Prefabs/Models_Only/Grenades/Hand_Grenade.prefab
+    - Assets/Prefabs/Models_Only/Grenades/Hand_Grenade.prefab.meta
+    - Assets/Prefabs/Models_Only/Guns.meta
+    - Assets/Prefabs/Models_Only/Guns/Assault_Rifle_01.prefab
+    - Assets/Prefabs/Models_Only/Guns/Assault_Rifle_01.prefab.meta
+    - Assets/Prefabs/Models_Only/Guns/Handgun_01.prefab
+    - Assets/Prefabs/Models_Only/Guns/Handgun_01.prefab.meta
+    - Assets/Prefabs/Models_Only/Mags.meta
+    - Assets/Prefabs/Models_Only/Mags/Assault_Rifle_01_Mag_Empty.prefab
+    - Assets/Prefabs/Models_Only/Mags/Assault_Rifle_01_Mag_Empty.prefab.meta
+    - Assets/Prefabs/Models_Only/Mags/Assault_Rifle_01_Mag_Full.prefab
+    - Assets/Prefabs/Models_Only/Mags/Assault_Rifle_01_Mag_Full.prefab.meta
+    - Assets/Prefabs/Models_Only/Mags/Handgun_01_Mag_Empty.prefab
+    - Assets/Prefabs/Models_Only/Mags/Handgun_01_Mag_Empty.prefab.meta
+    - Assets/Prefabs/Models_Only/Mags/Handgun_01_Mag_Full.prefab
+    - Assets/Prefabs/Models_Only/Mags/Handgun_01_Mag_Full.prefab.meta
+    - Assets/Prefabs/Models_Only/Tactical_Knife.meta
+    - Assets/Prefabs/Models_Only/Tactical_Knife/Tactical_Knife.prefab
+    - Assets/Prefabs/Models_Only/Tactical_Knife/Tactical_Knife.prefab.meta
+    - Assets/Prefabs/Projectiles.meta
+    - Assets/Prefabs/Projectiles/Bullet.meta
+    - Assets/Prefabs/Projectiles/Bullet/Bullet_Prefab.prefab
+    - Assets/Prefabs/Projectiles/Bullet/Bullet_Prefab.prefab.meta
+    - Assets/Prefabs/Target.prefab
+    - Assets/Prefabs/Target.prefab.meta
+    - Assets/Scripts/Bullet.meta
+    - Assets/Scripts/Bullet/BulletScript.cs
+    - Assets/Scripts/Bullet/BulletScript.cs.meta
+    - Assets/Scripts/Casings_&_Projectiles.meta
+    - Assets/Scripts/Casings_&_Projectiles/CasingScript.cs
+    - Assets/Scripts/Casings_&_Projectiles/CasingScript.cs.meta
+    - Assets/Scripts/Casings_&_Projectiles/GrenadeScript.cs
+    - Assets/Scripts/Casings_&_Projectiles/GrenadeScript.cs.meta
+    - Assets/Scripts/DebrisScript.cs
+    - Assets/Scripts/DebrisScript.cs.meta
+    - Assets/Scripts/Explosions_&_Impacts.meta
+    - Assets/Scripts/Explosions_&_Impacts/ExplosionScript.cs
+    - Assets/Scripts/Explosions_&_Impacts/ExplosionScript.cs.meta
+    - Assets/Scripts/Explosions_&_Impacts/ImpactScript.cs
+    - Assets/Scripts/Explosions_&_Impacts/ImpactScript.cs.meta
+    - Assets/Scripts/ExplosiveBarrelScript.cs
+    - Assets/Scripts/ExplosiveBarrelScript.cs.meta
+    - Assets/Scripts/FPSController.meta
+    - Assets/Scripts/FPSController/FpsControllerLPFP.cs
+    - Assets/Scripts/FPSController/FpsControllerLPFP.cs.meta
+    - Assets/Scripts/Misc.meta
+    - Assets/Scripts/Misc/LookAtCamera.cs
+    - Assets/Scripts/Misc/LookAtCamera.cs.meta
+    - Assets/Scripts/PlayerController.cs
+    - Assets/Scripts/PlayerController.cs.meta
+    - Assets/Scripts/TargetScript.cs
+    - Assets/Scripts/TargetScript.cs.meta
+    - Assets/Scripts/Weapon_Scripts.meta
+    - Assets/Scripts/Weapon_Scripts/AutomaticGunScriptLPFP.cs
+    - Assets/Scripts/Weapon_Scripts/AutomaticGunScriptLPFP.cs.meta
+    - Assets/Scripts/Weapon_Scripts/HandgunScriptLPFP.cs
+    - Assets/Scripts/Weapon_Scripts/HandgunScriptLPFP.cs.meta
+    - Assets/Sounds/Aiming.meta
+    - Assets/Sounds/Aiming/aim_in.mp3
+    - Assets/Sounds/Aiming/aim_in.mp3.meta
+    - Assets/Sounds/Casings_&_Shells.meta
+    - Assets/Sounds/Casings_&_Shells/casing-sound-1.wav
+    - Assets/Sounds/Casings_&_Shells/casing-sound-1.wav.meta
+    - Assets/Sounds/Casings_&_Shells/casing-sound-2.wav
+    - Assets/Sounds/Casings_&_Shells/casing-sound-2.wav.meta
+    - Assets/Sounds/Casings_&_Shells/casing-sound-3.wav
+    - Assets/Sounds/Casings_&_Shells/casing-sound-3.wav.meta
+    - Assets/Sounds/Casings_&_Shells/casing-sound-4.wav
+    - Assets/Sounds/Casings_&_Shells/casing-sound-4.wav.meta
+    - Assets/Sounds/Casings_&_Shells/casing-sound-5.wav
+    - Assets/Sounds/Casings_&_Shells/casing-sound-5.wav.meta
+    - Assets/Sounds/Explosions.meta
+    - Assets/Sounds/Explosions/explosion-1.wav
+    - Assets/Sounds/Explosions/explosion-1.wav.meta
+    - Assets/Sounds/Explosions/explosion-2.wav
+    - Assets/Sounds/Explosions/explosion-2.wav.meta
+    - Assets/Sounds/Explosions/explosion-3.wav
+    - Assets/Sounds/Explosions/explosion-3.wav.meta
+    - Assets/Sounds/Explosions/explosion-4.wav
+    - Assets/Sounds/Explosions/explosion-4.wav.meta
+    - Assets/Sounds/Explosions/explosion-5.wav
+    - Assets/Sounds/Explosions/explosion-5.wav.meta
+    - Assets/Sounds/Explosions/explosion-6.wav
+    - Assets/Sounds/Explosions/explosion-6.wav.meta
+    - Assets/Sounds/Grenade_Throw.meta
+    - Assets/Sounds/Grenade_Throw/grenade-throw-2.wav
+    - Assets/Sounds/Grenade_Throw/grenade-throw-2.wav.meta
+    - Assets/Sounds/Grenade_Throw/grenade-throw.wav
+    - Assets/Sounds/Grenade_Throw/grenade-throw.wav.meta
+    - Assets/Sounds/Gun_Reloads.meta
+    - Assets/Sounds/Gun_Reloads/Assault_Rifle_01_Reloads.meta
+    - Assets/Sounds/Gun_Reloads/Assault_Rifle_01_Reloads/assault_rifle_01_reload_ammo_left.mp3
+    - Assets/Sounds/Gun_Reloads/Assault_Rifle_01_Reloads/assault_rifle_01_reload_ammo_left.mp3.meta
+    - Assets/Sounds/Gun_Reloads/Assault_Rifle_01_Reloads/assault_rifle_01_reload_out_of_ammo.mp3
+    - Assets/Sounds/Gun_Reloads/Assault_Rifle_01_Reloads/assault_rifle_01_reload_out_of_ammo.mp3.meta
+    - Assets/Sounds/Gun_Reloads/Handgun_01-04_Reloads.meta
+    - Assets/Sounds/Gun_Reloads/Handgun_01-04_Reloads/handgun_01-04_reload_ammo_left.mp3
+    - Assets/Sounds/Gun_Reloads/Handgun_01-04_Reloads/handgun_01-04_reload_ammo_left.mp3.meta
+    - Assets/Sounds/Gun_Reloads/Handgun_01-04_Reloads/handgun_01-04_reload_out_of_ammo.mp3
+    - Assets/Sounds/Gun_Reloads/Handgun_01-04_Reloads/handgun_01-04_reload_out_of_ammo.mp3.meta
+    - Assets/Sounds/Impacts.meta
+    - Assets/Sounds/Impacts/impact-1.wav
+    - Assets/Sounds/Impacts/impact-1.wav.meta
+    - Assets/Sounds/Impacts/impact-2.wav
+    - Assets/Sounds/Impacts/impact-2.wav.meta
+    - Assets/Sounds/Impacts/impact-3.wav
+    - Assets/Sounds/Impacts/impact-3.wav.meta
+    - Assets/Sounds/Impacts/impact-4.wav
+    - Assets/Sounds/Impacts/impact-4.wav.meta
+    - Assets/Sounds/Impacts/thud.wav
+    - Assets/Sounds/Impacts/thud.wav.meta
+    - Assets/Sounds/Misc.meta
+    - Assets/Sounds/Misc/holster_weapon.mp3
+    - Assets/Sounds/Misc/holster_weapon.mp3.meta
+    - Assets/Sounds/Misc/take_out_weapon.mp3
+    - Assets/Sounds/Misc/take_out_weapon.mp3.meta
+    - Assets/Sounds/Misc/target-go-down.wav
+    - Assets/Sounds/Misc/target-go-down.wav.meta
+    - Assets/Sounds/Misc/target-go-up.wav
+    - Assets/Sounds/Misc/target-go-up.wav.meta
+    - Assets/Sounds/Movement.meta
+    - Assets/Sounds/Movement/running_loop.wav
+    - Assets/Sounds/Movement/running_loop.wav.meta
+    - Assets/Sounds/Movement/walking_loop.wav
+    - Assets/Sounds/Movement/walking_loop.wav.meta
+    - Assets/Sounds/Shoot.meta
+    - Assets/Sounds/Shoot/shoot.wav
+    - Assets/Sounds/Shoot/shoot.wav.meta
+    - Assets/UI/HUD/Grenade_UI_Texture.png
+    - Assets/UI/HUD/Grenade_UI_Texture.png.meta
+    - Assets/UI/HUD/assault_rifle_01_icon.png
+    - Assets/UI/HUD/assault_rifle_01_icon.png.meta
+    - Assets/UI/HUD/handgun_01_icon.png
+    - Assets/UI/HUD/handgun_01_icon.png.meta
+    - 
+    m_Values: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  RevisionSummary: 
+  ChangesSearchValue: 
+  SelectedHistoryRevision: 
+  HistoryPageNumber: 0
+  TabIndex: 0
