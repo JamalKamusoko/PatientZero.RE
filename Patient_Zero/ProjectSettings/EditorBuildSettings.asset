@@ -4,5 +4,29 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/Jamal's TESTY westy Ting.unity
+    guid: 1a0c77e3738d51c4b896f28213cfd7ea
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: e9296e910a5daaf4086a56bcc4e85588
+  - enabled: 1
+    path: Assets/Scenes/Tutorial.unity
+    guid: 8f776ee643b132c838c6ed979f5d032b
+  - enabled: 1
+    path: Assets/Scenes/BaseCampHub.unity
+    guid: f912a646d11a3cc42893900bcf72720a
+  - enabled: 1
+    path: Assets/Scenes/TownScene1to4.unity
+    guid: c3ef2b02c7a9391408eb81fddb908a29
+  - enabled: 1
+    path: Assets/Scenes/ShoppingCentre.unity
+    guid: 8032a5f69fa22a64aaec7b577ab9c68c
+  - enabled: 1
+    path: Assets/Scenes/Hospital.unity
+    guid: f0bee1d887ed63d4aa63f9dcc919bb22
+  - enabled: 1
+    path: Assets/Scenes/FinalTower.unity
+    guid: 4dbd1e6653c887544af07632deacd001
   m_configObjects: {}
