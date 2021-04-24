@@ -61,18 +61,53 @@
     <Compile Include="Assets\Scripts\Casings_&amp;_Projectiles\CasingScript.cs" />
     <Compile Include="Assets\LevelDesign\AssetStoreOriginals\_SNAPS_PrototypingAssets\About\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\Explosions_&amp;_Impacts\ExplosionScript.cs" />
+<<<<<<< Updated upstream
     <Compile Include="Assets\Scripts\Explosions_&amp;_Impacts\ImpactScript.cs" />
+=======
+    <Compile Include="Assets\Enviroment\enviroment\Office building\scripts\Fix_elevator_fall.cs" />
+    <Compile Include="Assets\Enviroment\enviroment\Office building\scripts\evelator_controll.cs" />
+    <Compile Include="Assets\Scripts\Explosions_&amp;_Impacts\ImpactScript.cs" />
+    <Compile Include="Assets\Enviroment\enviroment\Office building\scripts\Door.cs" />
+>>>>>>> Stashed changes
     <Compile Include="Assets\Scripts\Weapon_Scripts\AutomaticGunScriptLPFP.cs" />
     <Compile Include="Assets\Scripts\Bullet\BulletScript.cs" />
     <Compile Include="Assets\Scripts\scenemanager.cs" />
     <Compile Include="Assets\Scripts\FPSController\FpsControllerLPFP.cs" />
+<<<<<<< Updated upstream
     <Compile Include="Assets\Scripts\Misc\LookAtCamera.cs" />
     <Compile Include="Assets\Scripts\Weapon_Scripts\HandgunScriptLPFP.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
+=======
+    <Compile Include="Assets\Enviroment\enviroment\Office building\scripts\pass_on_parent.cs" />
+    <Compile Include="Assets\Enviroment\enviroment\Office building\scripts\DoorAction.cs" />
+    <Compile Include="Assets\Scripts\Misc\LookAtCamera.cs" />
+    <Compile Include="Assets\Scripts\Weapon_Scripts\HandgunScriptLPFP.cs" />
+    <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\DialogueEditor\Assets\Scripts\UI\UIConversationButton.cs" />
+    <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableCondition.cs" />
+    <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableSetParamAction.cs" />
+    <Compile Include="Assets\DialogueEditor\Assets\Scripts\Parameter.cs" />
+    <Compile Include="Assets\DialogueEditor\Assets\Scripts\Connection.cs" />
+    <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableNode.cs" />
+    <Compile Include="Assets\DialogueEditor\Assets\Scripts\Conversation.cs" />
+    <Compile Include="Assets\DialogueEditor\Assets\Scripts\ConversationNode.cs" />
+    <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableConversation.cs" />
+    <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableParameter.cs" />
+    <Compile Include="Assets\DialogueEditor\Assets\Scripts\NPCConversation.cs" />
+    <Compile Include="Assets\DialogueEditor\Assets\Scripts\Condition.cs" />
+    <Compile Include="Assets\DialogueEditor\Assets\Scripts\SetParamAction.cs" />
+    <Compile Include="Assets\DialogueEditor\Assets\Scripts\UI\ConversationManager.cs" />
+    <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableConnection.cs" />
+    <Compile Include="Assets\DialogueEditor\Assets\Scripts\NodeEventHolder.cs" />
+>>>>>>> Stashed changes
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Polygon zombie package\ReadMe.txt" />
      <None Include="Assets\SkySerie Freebie\Hdri setup.txt" />
+<<<<<<< Updated upstream
+=======
+     <None Include="Assets\Enviroment\enviroment\Office building\Read me.txt" />
+>>>>>>> Stashed changes
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -679,6 +714,7 @@
     <Reference Include="UnityEditor.UI">
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
+<<<<<<< Updated upstream
     <Reference Include="Unity.ProBuilder.AddOns.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll</HintPath>
     </Reference>
@@ -697,6 +733,26 @@
     <Reference Include="Unity.ProGrids">
       <HintPath>Library\ScriptAssemblies\Unity.ProGrids.dll</HintPath>
     </Reference>
+=======
+    <Reference Include="Unity.Rider.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProGrids">
+      <HintPath>Library\ScriptAssemblies\Unity.ProGrids.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProGrids.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ProGrids.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AddOns.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.SysrootPackage.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.SysrootPackage.Editor.dll</HintPath>
+    </Reference>
+>>>>>>> Stashed changes
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
