@@ -48,42 +48,42 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\DebrisScript.cs" />
+     <Compile Include="Assets\VIDE\Data\VIDE_Data.cs" />
+     <Compile Include="Assets\VIDE\Data\MiniJSON_VIDE.cs" />
+     <Compile Include="Assets\VIDE\Data\VIDE_Localization.cs" />
+     <Compile Include="Assets\VIDE\Demos\PlayerInteraction\demoScripts\VIDEDemoPlayer.cs" />
      <Compile Include="Assets\Scripts\Casings_&amp;_Projectiles\GrenadeScript.cs" />
      <Compile Include="Assets\Scripts\QuitScript.cs" />
      <Compile Include="Assets\Scripts\ExplosiveBarrelScript.cs" />
      <Compile Include="Assets\Scripts\TargetScript.cs" />
+     <Compile Include="Assets\VIDE\Demos\MultiInstances\VIDEUIManager3.cs" />
      <Compile Include="Assets\Scripts\Casings_&amp;_Projectiles\CasingScript.cs" />
      <Compile Include="Assets\LevelDesign\AssetStoreOriginals\_SNAPS_PrototypingAssets\About\Scripts\Readme.cs" />
      <Compile Include="Assets\Scripts\Explosions_&amp;_Impacts\ExplosionScript.cs" />
+     <Compile Include="Assets\Enviroment\enviroment\Office building\scripts\Fix_elevator_fall.cs" />
+     <Compile Include="Assets\VIDE\Demos\Narration\DEMO_UIManager.cs" />
+     <Compile Include="Assets\Enviroment\enviroment\Office building\scripts\evelator_controll.cs" />
      <Compile Include="Assets\Scripts\Explosions_&amp;_Impacts\ImpactScript.cs" />
+     <Compile Include="Assets\Enviroment\enviroment\Office building\scripts\Door.cs" />
      <Compile Include="Assets\Scripts\Weapon_Scripts\AutomaticGunScriptLPFP.cs" />
      <Compile Include="Assets\Scripts\Bullet\BulletScript.cs" />
+     <Compile Include="Assets\VIDE\Demos\PlayerInteraction\demoScripts\QuestChartDemo.cs" />
+     <Compile Include="Assets\VIDE\Data\VIDE_EditorDB.cs" />
      <Compile Include="Assets\Scripts\scenemanager.cs" />
      <Compile Include="Assets\Scripts\FPSController\FpsControllerLPFP.cs" />
+     <Compile Include="Assets\VIDE\Data\VIDE_Editor_Skin.cs" />
+     <Compile Include="Assets\VIDE\Demos\VeryBasic\minUIExample.cs" />
+     <Compile Include="Assets\Enviroment\enviroment\Office building\scripts\pass_on_parent.cs" />
+     <Compile Include="Assets\VIDE\Demos\Template\Template_UIManager.cs" />
+     <Compile Include="Assets\Enviroment\enviroment\Office building\scripts\DoorAction.cs" />
+     <Compile Include="Assets\VIDE\VIDE_Assign.cs" />
      <Compile Include="Assets\Scripts\Misc\LookAtCamera.cs" />
      <Compile Include="Assets\Scripts\Weapon_Scripts\HandgunScriptLPFP.cs" />
-     <Compile Include="Assets\Scripts\PlayerController.cs" />
-     <Compile Include="Assets\Enviroment\enviroment\Office building\scripts\Fix_elevator_fall.cs" />
-     <Compile Include="Assets\Enviroment\enviroment\Office building\scripts\DoorAction.cs" />
-     <Compile Include="Assets\Enviroment\enviroment\Office building\scripts\Door.cs" />
-     <Compile Include="Assets\Enviroment\enviroment\Office building\scripts\evelator_controll.cs" />
-     <Compile Include="Assets\Enviroment\enviroment\Office building\scripts\pass_on_parent.cs" />
-     <Compile Include="Assets\VIDE\Demos\PlayerInteraction\demoScripts\QuestChartDemo.cs" />
-     <Compile Include="Assets\VIDE\Data\MiniJSON_VIDE.cs" />
-     <Compile Include="Assets\VIDE\Demos\PlayerInteraction\demoScripts\VIDEDemoPlayer.cs" />
-     <Compile Include="Assets\VIDE\Demos\VeryBasic\minUIExample.cs" />
-     <Compile Include="Assets\VIDE\Demos\Narration\DEMO_UIManager.cs" />
-     <Compile Include="Assets\VIDE\Demos\PlayerInteraction\demoScripts\VIDEUIManager1.cs" />
      <Compile Include="Assets\VIDE\Demos\PlayerInteraction\demoScripts\witchExample.cs" />
+     <Compile Include="Assets\VIDE\Demos\PlayerInteraction\demoScripts\VIDEUIManager1.cs" />
      <Compile Include="Assets\VIDE\Demos\PlayerInteraction\demoScripts\CylinderGuy.cs" />
-     <Compile Include="Assets\VIDE\Data\VIDE_Editor_Skin.cs" />
-     <Compile Include="Assets\VIDE\Demos\Template\Template_UIManager.cs" />
-     <Compile Include="Assets\VIDE\Data\VIDE_Localization.cs" />
-     <Compile Include="Assets\VIDE\Demos\MultiInstances\VIDEUIManager3.cs" />
-     <Compile Include="Assets\VIDE\Data\VIDE_EditorDB.cs" />
      <Compile Include="Assets\VIDE\Demos\Localization\VIDEUIManager2.cs" />
-     <Compile Include="Assets\VIDE\Data\VIDE_Data.cs" />
-     <Compile Include="Assets\VIDE\VIDE_Assign.cs" />
+     <Compile Include="Assets\Scripts\PlayerController.cs" />
      <None Include="Assets\VIDE\Demos\PlayerInteraction\README.txt" />
      <None Include="Assets\VIDE\Demos\About.txt" />
      <None Include="Assets\VIDE\Export\Readme.txt" />
@@ -314,6 +314,12 @@
  </Reference>
  <Reference Include="UnityEditor.UnityConnectModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Common">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -661,61 +667,61 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>C:/Users/Alastair Vallance/Documents/GitHub/PatientZero.RE/Patient_Zero/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ <HintPath>C:/Users/Jamal Kamusoko/Documents/GitHub/PatientZero.RE/Patient_Zero/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
- <HintPath>C:/Users/Alastair Vallance/Documents/GitHub/PatientZero.RE/Patient_Zero/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+ <HintPath>C:/Users/Jamal Kamusoko/Documents/GitHub/PatientZero.RE/Patient_Zero/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/Alastair Vallance/Documents/GitHub/PatientZero.RE/Patient_Zero/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/Jamal Kamusoko/Documents/GitHub/PatientZero.RE/Patient_Zero/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VisualStudio.Editor">
- <HintPath>C:/Users/Alastair Vallance/Documents/GitHub/PatientZero.RE/Patient_Zero/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+ <HintPath>C:/Users/Jamal Kamusoko/Documents/GitHub/PatientZero.RE/Patient_Zero/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Sysroot.Linux_x86_64">
- <HintPath>C:/Users/Alastair Vallance/Documents/GitHub/PatientZero.RE/Patient_Zero/Library/ScriptAssemblies/Unity.Sysroot.Linux_x86_64.dll</HintPath>
+ <HintPath>C:/Users/Jamal Kamusoko/Documents/GitHub/PatientZero.RE/Patient_Zero/Library/ScriptAssemblies/Unity.Sysroot.Linux_x86_64.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Toolchain.Win-x86_64-Linux-x86_64">
- <HintPath>C:/Users/Alastair Vallance/Documents/GitHub/PatientZero.RE/Patient_Zero/Library/ScriptAssemblies/Unity.Toolchain.Win-x86_64-Linux-x86_64.dll</HintPath>
+ <HintPath>C:/Users/Jamal Kamusoko/Documents/GitHub/PatientZero.RE/Patient_Zero/Library/ScriptAssemblies/Unity.Toolchain.Win-x86_64-Linux-x86_64.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>C:/Users/Alastair Vallance/Documents/GitHub/PatientZero.RE/Patient_Zero/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>C:/Users/Jamal Kamusoko/Documents/GitHub/PatientZero.RE/Patient_Zero/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>C:/Users/Alastair Vallance/Documents/GitHub/PatientZero.RE/Patient_Zero/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>C:/Users/Jamal Kamusoko/Documents/GitHub/PatientZero.RE/Patient_Zero/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/Alastair Vallance/Documents/GitHub/PatientZero.RE/Patient_Zero/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/Jamal Kamusoko/Documents/GitHub/PatientZero.RE/Patient_Zero/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ProBuilder">
- <HintPath>C:/Users/Alastair Vallance/Documents/GitHub/PatientZero.RE/Patient_Zero/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
+ <HintPath>C:/Users/Jamal Kamusoko/Documents/GitHub/PatientZero.RE/Patient_Zero/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Toolchain.Linux-x86_64">
- <HintPath>C:/Users/Alastair Vallance/Documents/GitHub/PatientZero.RE/Patient_Zero/Library/ScriptAssemblies/Unity.Toolchain.Linux-x86_64.dll</HintPath>
+ <HintPath>C:/Users/Jamal Kamusoko/Documents/GitHub/PatientZero.RE/Patient_Zero/Library/ScriptAssemblies/Unity.Toolchain.Linux-x86_64.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ProBuilder.Editor">
- <HintPath>C:/Users/Alastair Vallance/Documents/GitHub/PatientZero.RE/Patient_Zero/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
+ <HintPath>C:/Users/Jamal Kamusoko/Documents/GitHub/PatientZero.RE/Patient_Zero/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>C:/Users/Alastair Vallance/Documents/GitHub/PatientZero.RE/Patient_Zero/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>C:/Users/Jamal Kamusoko/Documents/GitHub/PatientZero.RE/Patient_Zero/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
- <HintPath>C:/Users/Alastair Vallance/Documents/GitHub/PatientZero.RE/Patient_Zero/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ <HintPath>C:/Users/Jamal Kamusoko/Documents/GitHub/PatientZero.RE/Patient_Zero/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ProGrids">
- <HintPath>C:/Users/Alastair Vallance/Documents/GitHub/PatientZero.RE/Patient_Zero/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
+ <HintPath>C:/Users/Jamal Kamusoko/Documents/GitHub/PatientZero.RE/Patient_Zero/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ProGrids.Editor">
- <HintPath>C:/Users/Alastair Vallance/Documents/GitHub/PatientZero.RE/Patient_Zero/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
+ <HintPath>C:/Users/Jamal Kamusoko/Documents/GitHub/PatientZero.RE/Patient_Zero/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Users/Alastair Vallance/Documents/GitHub/PatientZero.RE/Patient_Zero/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Users/Jamal Kamusoko/Documents/GitHub/PatientZero.RE/Patient_Zero/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ProBuilder.AddOns.Editor">
- <HintPath>C:/Users/Alastair Vallance/Documents/GitHub/PatientZero.RE/Patient_Zero/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+ <HintPath>C:/Users/Jamal Kamusoko/Documents/GitHub/PatientZero.RE/Patient_Zero/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.SysrootPackage.Editor">
- <HintPath>C:/Users/Alastair Vallance/Documents/GitHub/PatientZero.RE/Patient_Zero/Library/ScriptAssemblies/Unity.SysrootPackage.Editor.dll</HintPath>
+ <HintPath>C:/Users/Jamal Kamusoko/Documents/GitHub/PatientZero.RE/Patient_Zero/Library/ScriptAssemblies/Unity.SysrootPackage.Editor.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
