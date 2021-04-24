@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Linq;
 using UnityEngine;
-using VIDE_Data;
 
 namespace FPSControllerLPFP
 {
