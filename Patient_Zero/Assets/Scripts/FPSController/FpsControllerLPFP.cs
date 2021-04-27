@@ -270,6 +270,8 @@ namespace FPSControllerLPFP
                 }
             }
         }
+
+
 			
         /// A helper for assistance with smoothing the camera rotation.
         private class SmoothRotation
@@ -293,6 +295,8 @@ namespace FPSControllerLPFP
                 set { _current = value; }
             }
         }
+
+
 			
         /// A helper for assistance with smoothing the movement.
         private class SmoothVelocity
@@ -311,6 +315,8 @@ namespace FPSControllerLPFP
                 set { _current = value; }
             }
         }
+
+
 			
         /// Input mappings
         [Serializable]
