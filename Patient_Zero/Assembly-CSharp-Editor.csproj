@@ -53,16 +53,13 @@
     <UnityVersion>2020.2.6f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\LevelDesign\AssetStoreOriginals\_SNAPS_PrototypingAssets\Scripts\Editor\PackageChecker\PackageChecker.cs" />
-    <Compile Include="Assets\LevelDesign\AssetStoreOriginals\_SNAPS_PrototypingAssets\About\Scripts\Editor\ReadmeEditor.cs" />
-<<<<<<< Updated upstream
-=======
-    <Compile Include="Assets\DialogueEditor\Assets\Scripts\Editor\DialogueEditorWindow.cs" />
-    <Compile Include="Assets\DialogueEditor\Assets\Scripts\UI\Editor\ConversationManagerEditor.cs" />
-    <Compile Include="Assets\DialogueEditor\Assets\Scripts\Editor\DialogueEditorUtil.cs" />
-    <Compile Include="Assets\DialogueEditor\Assets\Scripts\Editor\NPCConversationEditor.cs" />
     <Compile Include="Assets\DialogueEditor\Assets\Scripts\Editor\DialogueEditorNode.cs" />
->>>>>>> Stashed changes
+    <Compile Include="Assets\DialogueEditor\Assets\Scripts\Editor\DialogueEditorWindow.cs" />
+    <Compile Include="Assets\LevelDesign\AssetStoreOriginals\_SNAPS_PrototypingAssets\Scripts\Editor\PackageChecker\PackageChecker.cs" />
+    <Compile Include="Assets\DialogueEditor\Assets\Scripts\Editor\DialogueEditorUtil.cs" />
+    <Compile Include="Assets\LevelDesign\AssetStoreOriginals\_SNAPS_PrototypingAssets\About\Scripts\Editor\ReadmeEditor.cs" />
+    <Compile Include="Assets\DialogueEditor\Assets\Scripts\Editor\NPCConversationEditor.cs" />
+    <Compile Include="Assets\DialogueEditor\Assets\Scripts\UI\Editor\ConversationManagerEditor.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\LevelDesign\AssetStoreOriginals\_SNAPS_PrototypingAssets\Scripts\Editor\PackageChecker\PackageImportList.txt" />
@@ -690,26 +687,6 @@
     <Reference Include="UnityEditor.UI">
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
-<<<<<<< Updated upstream
-    <Reference Include="Unity.ProBuilder.AddOns.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Rider.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.SysrootPackage.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.SysrootPackage.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProGrids.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.ProGrids.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProGrids">
-      <HintPath>Library\ScriptAssemblies\Unity.ProGrids.dll</HintPath>
-    </Reference>
-=======
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
@@ -728,7 +705,6 @@
     <Reference Include="Unity.SysrootPackage.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.SysrootPackage.Editor.dll</HintPath>
     </Reference>
->>>>>>> Stashed changes
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">

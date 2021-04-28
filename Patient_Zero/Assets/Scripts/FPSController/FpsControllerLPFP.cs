@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.UI;
+using DialogueEditor;
 
 namespace FPSControllerLPFP
 {
@@ -56,6 +58,9 @@ namespace FPSControllerLPFP
         [Tooltip("The names of the axes and buttons for Unity's Input Manager."), SerializeField]
         private FpsInput input;
 #pragma warning restore 649
+
+        public GameObject DialogueUI;
+        public GameObject SetArms;
 
         private Rigidbody _rigidbody;
         private CapsuleCollider _collider;
@@ -136,9 +141,22 @@ namespace FPSControllerLPFP
         private void FixedUpdate()
         {
             // FixedUpdate is used instead of Update because this code is dealing with physics and smoothing.
-            RotateCameraAndCharacter();
-            MoveCharacter();
-            _isGrounded = false;
+            if (DialogueUI.activeInHierarchy == false)
+            {
+                RotateCameraAndCharacter();
+                MoveCharacter();
+                _isGrounded = false;
+                SetArms.SetActive(true);
+                Cursor.lockState = CursorLockMode.Locked;
+            }
+
+            if (DialogueUI.activeInHierarchy == true)
+            {
+                _rigidbody = GetComponent<Rigidbody>();
+                _rigidbody.velocity = Vector3.zero;
+                SetArms.SetActive(false);
+                Cursor.lockState = CursorLockMode.None;
+            }
         }
 			
         /// Moves the camera to the character, processes jumping and plays sounds every frame.
