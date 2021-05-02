@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace DialogueEditor
 {
-    public class ExampleInputManager : MonoBehaviour
+    public class InputManager : MonoBehaviour
     {
         public KeyCode m_UpKey;
         public KeyCode m_DownKey;
