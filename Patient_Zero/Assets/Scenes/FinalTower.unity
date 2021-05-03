@@ -7386,7 +7386,7 @@ Transform:
   - {fileID: 1494076828}
   - {fileID: 1895426891}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &165016200
 PrefabInstance:
@@ -25967,7 +25967,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 454512466}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -34647,7 +34647,7 @@ Transform:
   m_Children:
   - {fileID: 1108504615}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &548078157
 PrefabInstance:
@@ -49466,7 +49466,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 50, y: -195.634, z: 0}
 --- !u!1 &831172258
 GameObject:
@@ -52024,7 +52024,7 @@ RectTransform:
   m_Children:
   - {fileID: 2028580021}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -68101,6 +68101,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Handgun_Controller (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1273765395313544, guid: c24fed9fa91f7634fbc8e5e12405008e, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 1971664552725080, guid: c24fed9fa91f7634fbc8e5e12405008e, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -77127,7 +77131,7 @@ Transform:
   m_LocalScale: {x: 10.257962, y: 9.411179, z: 0.9151337}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1536278146 stripped
 Transform:
@@ -81835,7 +81839,7 @@ Transform:
   - {fileID: 888866992}
   - {fileID: 1593010239}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1695133548
 PrefabInstance:
@@ -89464,7 +89468,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1837252104
 PrefabInstance:

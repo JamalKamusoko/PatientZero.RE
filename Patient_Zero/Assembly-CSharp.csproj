@@ -120,6 +120,9 @@
     <Compile Include="Assets\Scripts\PickUp.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\LevelDesign\Soja Exiles\Hospital Medical Office Modular\Scripts &amp; Animations\openclosedouble.cs" />
+    <Compile Include="Assets\EnableJimmyRun.cs" />
+    <Compile Include="Assets\JimmyRun.cs" />
+    <Compile Include="Assets\GotoLevel.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
