@@ -1,0 +1,285 @@
+Using pre-set license
+Built from '2020.2/staging' branch; Version is '2020.2.6f1 (8a2143876886) revision 9052483'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 18363.1198; Version 1909; 64bit' Language: 'en' Physical Memory: 12222 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Jamal Kamusoko/Documents/GitHub/PatientZero.RE/Patient_Zero
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61086
+Successfully changed project path to: C:/Users/Jamal Kamusoko/Documents/GitHub/PatientZero.RE/Patient_Zero
+C:/Users/Jamal Kamusoko/Documents/GitHub/PatientZero.RE/Patient_Zero
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 158.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.6f1 (8a2143876886)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Jamal Kamusoko/Documents/GitHub/PatientZero.RE/Patient_Zero/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 950 (ID=0x1402)
+    Vendor:   
+    VRAM:     2007 MB
+    Driver:   27.21.14.6172
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56932
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.006399 seconds.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 146.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.209 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009625 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Jamal Kamusoko\Documents\GitHub\PatientZero.RE\Patient_Zero\Library\PackageCache\com.unity.ads@3.4.5\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.2.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.389 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.24 seconds
+Refreshing native plugins compatible for Editor in 1.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 470 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.6 MB.
+System memory in use after: 71.6 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 917.
+Total: 2.442200 ms (FindLiveObjects: 0.125900 ms CreateObjectMapping: 0.030400 ms MarkObjects: 2.244600 ms  DeleteObjects: 0.039600 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/ShoppingCentre
+  artifactKey: Guid(faa1e6834df486448b631ede8da01020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ShoppingCentre using Guid(faa1e6834df486448b631ede8da01020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1517191073a3558fed3e67ea06d73812') in 0.118912 seconds
+  Import took 0.177544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Scenes/ShoppingCentre/NavMesh.asset
+  artifactKey: Guid(8a17dd8b0d428d94f98a3b2680733393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ShoppingCentre/NavMesh.asset using Guid(8a17dd8b0d428d94f98a3b2680733393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2938e38846ab53681a261fc4f6a9054b') in 0.086855 seconds
+  Import took 0.159640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Scenes/Tutorial/NavMesh.asset
+  artifactKey: Guid(77a5b2de493396e4a9d2913b352be50b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Tutorial/NavMesh.asset using Guid(77a5b2de493396e4a9d2913b352be50b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'facc6c53f6ccad3d5d349537bddad6ab') in 0.004951 seconds
+  Import took 0.046963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Scenes/Tutorial
+  artifactKey: Guid(6b15aa9d615437d4bb2d6531e73c177c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Tutorial using Guid(6b15aa9d615437d4bb2d6531e73c177c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50010462eb788c75b39572537a6d94e4') in 0.004558 seconds
+  Import took 0.060803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 269.551316 seconds.
+  path: Assets/Prefabs/Arms
+  artifactKey: Guid(c7cfe180cea3a674bbbd269d7b8fc0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Arms using Guid(c7cfe180cea3a674bbbd269d7b8fc0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2403d57520297cec188a1c9173857e92') in 0.010074 seconds
+  Import took 0.047903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.795009 seconds.
+  path: Assets/Prefabs/Arms/Handgun_01_Example_Prefab
+  artifactKey: Guid(5224bf737a8b7374da385b1e255cc461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Arms/Handgun_01_Example_Prefab using Guid(5224bf737a8b7374da385b1e255cc461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b42112027cdd6e9da5fd25eabd6276d') in 0.005299 seconds
+  Import took 0.007451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.266858 seconds.
+  path: Assets/Prefabs/Arms/Handgun_01_Example_Prefab/Handgun_01_FPSController.prefab
+  artifactKey: Guid(c24fed9fa91f7634fbc8e5e12405008e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Arms/Handgun_01_Example_Prefab/Handgun_01_FPSController.prefab using Guid(c24fed9fa91f7634fbc8e5e12405008e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '203a36c9ea8bbefc60e442f085f0b2e5') in 0.094540 seconds
+  Import took 0.096877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.517498 seconds.
+  path: Assets/Polygon zombie package/mesh.texture/Zombie A.png
+  artifactKey: Guid(891f7fc3442029e49a2e02747f01cec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/mesh.texture/Zombie A.png using Guid(891f7fc3442029e49a2e02747f01cec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9f400eedb68ed724c26bdf3cf64a40c') in 0.132896 seconds
+  Import took 0.135005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Polygon zombie package/mesh.texture/Zombie D 1.png
+  artifactKey: Guid(1a88a640b5a0de543a9f5cdce5c2db9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/mesh.texture/Zombie D 1.png using Guid(1a88a640b5a0de543a9f5cdce5c2db9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcc8546f63141eb70cf49c0600cfb8f5') in 0.004706 seconds
+  Import took 0.007075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Polygon zombie package/mesh.texture/Zombie M.png
+  artifactKey: Guid(f51ffa4ad05ce7f4abea89a73b66e9ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/mesh.texture/Zombie M.png using Guid(f51ffa4ad05ce7f4abea89a73b66e9ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43a3aebbf706b71a41b48644ad1007e9') in 0.004662 seconds
+  Import took 0.006659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Polygon zombie package/mesh.texture/Zombie R.png
+  artifactKey: Guid(9766ed0ed6845ac47ae1d76204dff056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/mesh.texture/Zombie R.png using Guid(9766ed0ed6845ac47ae1d76204dff056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b7376cb5f9cc8f5443e0a0825742c65') in 0.030731 seconds
+  Import took 0.032771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Polygon zombie package/mesh.texture/Zombie E 1.png
+  artifactKey: Guid(e89c9e9cd63d93443aef3f96eb430570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/mesh.texture/Zombie E 1.png using Guid(e89c9e9cd63d93443aef3f96eb430570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaa4ceb767e1bf183924d3ec44bba369') in 0.004789 seconds
+  Import took 0.006619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Polygon zombie package/mesh.texture/Zombie B 2.png
+  artifactKey: Guid(26263038c8d047e4b9ffa0c2c29c4815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/mesh.texture/Zombie B 2.png using Guid(26263038c8d047e4b9ffa0c2c29c4815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1387179bea6abf82c73dfb81650646bc') in 0.005100 seconds
+  Import took 0.007111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Polygon zombie package/mesh.texture/Zombie G.png
+  artifactKey: Guid(fd048e1f6abf5ee4da136ab2a9173cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/mesh.texture/Zombie G.png using Guid(fd048e1f6abf5ee4da136ab2a9173cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c2bd312efcc2d2ae08ce3059928b061') in 0.005162 seconds
+  Import took 0.006998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Polygon zombie package/mesh.texture/Zombie O.png
+  artifactKey: Guid(50b42769bfe755d40b2cb8f3bad95ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/mesh.texture/Zombie O.png using Guid(50b42769bfe755d40b2cb8f3bad95ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3537925ef4d309dcbb66064cea570c07') in 0.005287 seconds
+  Import took 0.007160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Polygon zombie package/mesh.texture/Zombie N.png
+  artifactKey: Guid(ada8da789b874444e84c99142df9106d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/mesh.texture/Zombie N.png using Guid(ada8da789b874444e84c99142df9106d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2feee0f16efbf3e4db8ad82336c984d1') in 0.004897 seconds
+  Import took 0.006960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Polygon zombie package/mesh.texture/zombie P.png
+  artifactKey: Guid(0ca672a41f2e7aa4781d34046b6bc19e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/mesh.texture/zombie P.png using Guid(0ca672a41f2e7aa4781d34046b6bc19e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f33d0dc8b0ad1f9944e06442895a4eb4') in 0.004992 seconds
+  Import took 0.006850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Polygon zombie package/mesh.texture/zombie Q.png
+  artifactKey: Guid(0a04c024c2a1cea4cb64a42a7049b7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/mesh.texture/zombie Q.png using Guid(0a04c024c2a1cea4cb64a42a7049b7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '020cbc92ad6899e3ba9c333e16104baa') in 0.004751 seconds
+  Import took 0.006695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Polygon zombie package/mesh.texture/Zombie B 1.png
+  artifactKey: Guid(266094a35f40f6d42a26630de36ead87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/mesh.texture/Zombie B 1.png using Guid(266094a35f40f6d42a26630de36ead87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '080d146a18402f64372ba725700bd793') in 0.004842 seconds
+  Import took 0.007398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Polygon zombie package/mesh.texture/Zombie F 1.png
+  artifactKey: Guid(334567bae819ade498449a662ab01793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/mesh.texture/Zombie F 1.png using Guid(334567bae819ade498449a662ab01793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59f1f001a845e8e0ebbd7273b45af34a') in 0.005306 seconds
+  Import took 0.007280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Polygon zombie package/mesh.texture/Zombie I.png
+  artifactKey: Guid(5b5e229078aa7784fac33df9aecdbca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/mesh.texture/Zombie I.png using Guid(5b5e229078aa7784fac33df9aecdbca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8a2f1f6881efd133a3fcb5f5174e38a') in 0.004652 seconds
+  Import took 0.006966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Polygon zombie package/mesh.texture/Zombie C 1.png
+  artifactKey: Guid(fd4d2977d42041f4e9e19e2dd11c98f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/mesh.texture/Zombie C 1.png using Guid(fd4d2977d42041f4e9e19e2dd11c98f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd08c18016e4c01085e72988fc6a6ddc7') in 0.004653 seconds
+  Import took 0.006539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Polygon zombie package/mesh.texture/zombie k.png
+  artifactKey: Guid(d89a9083ef9e2364ca345b83f5acd18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/mesh.texture/zombie k.png using Guid(d89a9083ef9e2364ca345b83f5acd18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d8e1805e375ac6fe9cd77dc992f5614') in 0.004623 seconds
+  Import took 0.006498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Polygon zombie package/mesh.texture/Zombie H.png
+  artifactKey: Guid(66dcd8794aaebed4a87b643b5d599f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/mesh.texture/Zombie H.png using Guid(66dcd8794aaebed4a87b643b5d599f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91ca369ec1b2c949525667a00c47d81a') in 0.005619 seconds
+  Import took 0.007715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 62.238464 seconds.
+  path: Assets/Prefabs/Assault_Rifle_Controller.prefab
+  artifactKey: Guid(c4bd9a1739c10a04aa6bea70b09c7136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Assault_Rifle_Controller.prefab using Guid(c4bd9a1739c10a04aa6bea70b09c7136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6581319118f5eec6144df717fe6921d') in 0.026817 seconds
+  Import took 0.031056 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
