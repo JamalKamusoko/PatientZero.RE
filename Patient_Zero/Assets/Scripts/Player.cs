@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -9,6 +10,8 @@ public class Player : MonoBehaviour
 	public int currentHealth;
 
 	public HealthBar healthBar;
+
+    public int deathSceneIndex;
 
     // Start is called before the first frame update
     void Start()
@@ -41,6 +44,8 @@ public class Player : MonoBehaviour
 		if (currentHealth <= 0)
 		{
 			Destroy(gameObject);
+            SceneManager.LoadScene(deathSceneIndex);
+            SceneManager.GetSceneByBuildIndex(deathSceneIndex);
 		}
 		
 	}
