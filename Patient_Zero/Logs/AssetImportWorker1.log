@@ -15,11 +15,11 @@ C:/Users/Jamal Kamusoko/Documents/GitHub/PatientZero.RE/Patient_Zero
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-61533
+55482
 Successfully changed project path to: C:/Users/Jamal Kamusoko/Documents/GitHub/PatientZero.RE/Patient_Zero
 C:/Users/Jamal Kamusoko/Documents/GitHub/PatientZero.RE/Patient_Zero
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 157.35 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 154.04 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.6f1 (8a2143876886)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/Resources/UnitySubsystems
@@ -35,25 +35,519 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56804
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56892
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.006601 seconds.
+Registered in 0.006212 seconds.
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 140.24 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 139.55 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.203 seconds
+- Completed reload, in  2.197 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+Registered in 0.009411 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Jamal Kamusoko\Documents\GitHub\PatientZero.RE\Patient_Zero\Library\PackageCache\com.unity.ads@3.4.5\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.2.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.787 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2014 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.8 MB.
+System memory in use after: 120.9 MB.
+
+Unloading 110 unused Assets to reduce memory usage. Loaded Objects now: 2457.
+Total: 4.011000 ms (FindLiveObjects: 0.325300 ms CreateObjectMapping: 0.086900 ms MarkObjects: 3.253600 ms  DeleteObjects: 0.343600 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/TargetScript.cs
+  artifactKey: Guid(cbc4c318247cfe2428546d89544fe5d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TargetScript.cs using Guid(cbc4c318247cfe2428546d89544fe5d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24a05a836fe331b7e978bb532df01593') in 0.259104 seconds
+  Import took 0.300297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.517818 seconds.
+  path: Assets/Scripts/FPSController
+  artifactKey: Guid(c06ccbc20b212924b93a4fd46ff0e348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FPSController using Guid(c06ccbc20b212924b93a4fd46ff0e348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c895c3ae99ef990db1fc429a087e0ff') in 0.004574 seconds
+  Import took 0.009619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001297 seconds.
+  path: Assets/Scripts/FPSController
+  artifactKey: Guid(c06ccbc20b212924b93a4fd46ff0e348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FPSController using Guid(c06ccbc20b212924b93a4fd46ff0e348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c895c3ae99ef990db1fc429a087e0ff') in 0.003867 seconds
+  Import took 0.008853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.593034 seconds.
+  path: Assets/Scripts/FPSController/FpsControllerLPFP.cs
+  artifactKey: Guid(f9ebbf09afaa7a14fa049921e4516bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FPSController/FpsControllerLPFP.cs using Guid(f9ebbf09afaa7a14fa049921e4516bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ae1e2d05b85a95bcf844346d099d6bf') in 0.005089 seconds
+  Import took 0.085167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.706430 seconds.
+  path: Assets/Scripts/FPSController/Weapon_Scripts
+  artifactKey: Guid(568693c8ad53bf247b5c64db8497d7bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FPSController/Weapon_Scripts using Guid(568693c8ad53bf247b5c64db8497d7bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81543da5fcb76067115100134636b4ea') in 0.004660 seconds
+  Import took 0.009631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.808533 seconds.
+  path: Assets/Scripts/FPSController/Weapon_Scripts/HandgunScriptLPFP.cs
+  artifactKey: Guid(e56ac14cb72efeb4b92cf5cb025a97c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FPSController/Weapon_Scripts/HandgunScriptLPFP.cs using Guid(e56ac14cb72efeb4b92cf5cb025a97c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '921d980914acbc8a0dea910b3d0a4d76') in 0.004502 seconds
+  Import took 0.096199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038135 seconds.
+  path: Assets/Scripts/FPSController/Weapon_Scripts/HandgunScriptLPFP.cs
+  artifactKey: Guid(e56ac14cb72efeb4b92cf5cb025a97c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FPSController/Weapon_Scripts/HandgunScriptLPFP.cs using Guid(e56ac14cb72efeb4b92cf5cb025a97c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '921d980914acbc8a0dea910b3d0a4d76') in 0.003886 seconds
+  Import took 0.009012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.579850 seconds.
+  path: Assets/Scripts/FPSController/Weapon_Scripts/AutomaticGunScriptLPFP.cs
+  artifactKey: Guid(dd38df9a0796d9842adfbe580ed6042e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FPSController/Weapon_Scripts/AutomaticGunScriptLPFP.cs using Guid(dd38df9a0796d9842adfbe580ed6042e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e3261403b5d51d2dfe1eb7f2d0653ae') in 0.004603 seconds
+  Import took 0.077719 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011710 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Jamal Kamusoko\Documents\GitHub\PatientZero.RE\Patient_Zero\Library\PackageCache\com.unity.ads@3.4.5\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.2.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.847 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1934 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 115.2 MB.
+System memory in use after: 115.3 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2459.
+Total: 3.900100 ms (FindLiveObjects: 0.322700 ms CreateObjectMapping: 0.080800 ms MarkObjects: 3.230000 ms  DeleteObjects: 0.262200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 267.215178 seconds.
+  path: Assets/Scripts/Enemy/EnemyHealth.cs
+  artifactKey: Guid(17bd4cc2db86f754ea0c7350198b2618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy/EnemyHealth.cs using Guid(17bd4cc2db86f754ea0c7350198b2618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16301ff11be85974e8d974c5cf3e5cb8') in 0.008922 seconds
+  Import took 0.053666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.105061 seconds.
+  path: Assets/Scripts/Enemy/EnemyHealth.cs
+  artifactKey: Guid(17bd4cc2db86f754ea0c7350198b2618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy/EnemyHealth.cs using Guid(17bd4cc2db86f754ea0c7350198b2618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16301ff11be85974e8d974c5cf3e5cb8') in 0.004128 seconds
+  Import took 0.009339 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010088 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Jamal Kamusoko\Documents\GitHub\PatientZero.RE\Patient_Zero\Library\PackageCache\com.unity.ads@3.4.5\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.2.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.217 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1934 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 115.3 MB.
+System memory in use after: 115.3 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2461.
+Total: 7.908100 ms (FindLiveObjects: 0.313400 ms CreateObjectMapping: 0.080000 ms MarkObjects: 7.318100 ms  DeleteObjects: 0.194300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 195.894495 seconds.
+  path: Assets/Scripts/Enemy/EnemyHealth.cs
+  artifactKey: Guid(17bd4cc2db86f754ea0c7350198b2618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy/EnemyHealth.cs using Guid(17bd4cc2db86f754ea0c7350198b2618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a206a4cc0062df1a94a851de8a660e4f') in 0.067588 seconds
+  Import took 0.131928 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008801 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Jamal Kamusoko\Documents\GitHub\PatientZero.RE\Patient_Zero\Library\PackageCache\com.unity.ads@3.4.5\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.2.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.664 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1934 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 115.3 MB.
+System memory in use after: 115.4 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2463.
+Total: 4.083500 ms (FindLiveObjects: 0.298000 ms CreateObjectMapping: 0.091900 ms MarkObjects: 3.529800 ms  DeleteObjects: 0.162200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010278 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.88 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Jamal Kamusoko\Documents\GitHub\PatientZero.RE\Patient_Zero\Library\PackageCache\com.unity.ads@3.4.5\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.2.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.885 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1934 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 115.3 MB.
+System memory in use after: 115.4 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2465.
+Total: 4.212700 ms (FindLiveObjects: 0.337000 ms CreateObjectMapping: 0.092700 ms MarkObjects: 3.544700 ms  DeleteObjects: 0.234300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009402 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Jamal Kamusoko\Documents\GitHub\PatientZero.RE\Patient_Zero\Library\PackageCache\com.unity.ads@3.4.5\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.2.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.734 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1934 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 115.3 MB.
+System memory in use after: 115.4 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2467.
+Total: 4.309300 ms (FindLiveObjects: 0.312400 ms CreateObjectMapping: 0.086000 ms MarkObjects: 3.664700 ms  DeleteObjects: 0.241900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011806 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Jamal Kamusoko\Documents\GitHub\PatientZero.RE\Patient_Zero\Library\PackageCache\com.unity.ads@3.4.5\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.2.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.728 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1934 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 115.3 MB.
+System memory in use after: 115.4 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2469.
+Total: 3.793900 ms (FindLiveObjects: 0.324600 ms CreateObjectMapping: 0.083000 ms MarkObjects: 3.182700 ms  DeleteObjects: 0.199600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 810.601762 seconds.
+  path: Assets/Scripts/Bullet/BulletScript.cs
+  artifactKey: Guid(02ff3ea705a4a7244a59eef82e75c660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Bullet/BulletScript.cs using Guid(02ff3ea705a4a7244a59eef82e75c660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3ba52877f26f7224f6f3bb8c362bf5c') in 0.128805 seconds
+  Import took 0.157231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 368.157167 seconds.
+  path: Assets/Scripts/TargetScript.cs
+  artifactKey: Guid(cbc4c318247cfe2428546d89544fe5d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TargetScript.cs using Guid(cbc4c318247cfe2428546d89544fe5d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95f818d10157c3b810791111cbf5b131') in 0.005544 seconds
+  Import took 0.122453 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
 Registered in 0.009617 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Jamal Kamusoko\Documents\GitHub\PatientZero.RE\Patient_Zero\Library\PackageCache\com.unity.ads@3.4.5\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.2.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.723 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1934 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 115.3 MB.
+System memory in use after: 115.4 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2471.
+Total: 4.892100 ms (FindLiveObjects: 0.344000 ms CreateObjectMapping: 0.095000 ms MarkObjects: 4.213100 ms  DeleteObjects: 0.237700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 131.353537 seconds.
+  path: Assets/Prefabs/Zombie I Prefab.prefab
+  artifactKey: Guid(f68a7f546cf31484291013444ed3ef60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Zombie I Prefab.prefab using Guid(f68a7f546cf31484291013444ed3ef60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd1380fba7c97de529e260956ec29854') in 3.209854 seconds
+  Import took 3.273676 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009304 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.06 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Jamal Kamusoko\Documents\GitHub\PatientZero.RE\Patient_Zero\Library\PackageCache\com.unity.ads@3.4.5\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.2.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.093 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1934 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.9 MB.
+System memory in use after: 132.0 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 2481.
+Total: 37.586900 ms (FindLiveObjects: 0.330100 ms CreateObjectMapping: 0.084600 ms MarkObjects: 3.565100 ms  DeleteObjects: 33.602800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 565.504775 seconds.
+  path: Assets/Prefabs/Zombie I Prefab.prefab
+  artifactKey: Guid(f68a7f546cf31484291013444ed3ef60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Zombie I Prefab.prefab using Guid(f68a7f546cf31484291013444ed3ef60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddcbdf6ff6897737bc071818d90aa3c3') in 1.472060 seconds
+  Import took 1.492088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.418019 seconds.
+  path: Assets/Prefabs/Zombie I Prefab.prefab
+  artifactKey: Guid(f68a7f546cf31484291013444ed3ef60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Zombie I Prefab.prefab using Guid(f68a7f546cf31484291013444ed3ef60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78535c522449bf353d1e6ab96f66d37f') in 0.041659 seconds
+  Import took 0.062547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.058519 seconds.
+  path: Assets/Prefabs/Zombie I Prefab.prefab
+  artifactKey: Guid(f68a7f546cf31484291013444ed3ef60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Zombie I Prefab.prefab using Guid(f68a7f546cf31484291013444ed3ef60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c01f76bd471280e99d33688be33c3efb') in 0.037843 seconds
+  Import took 0.177909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.168081 seconds.
+  path: Assets/Prefabs/Zombie I Prefab.prefab
+  artifactKey: Guid(f68a7f546cf31484291013444ed3ef60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Zombie I Prefab.prefab using Guid(f68a7f546cf31484291013444ed3ef60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '509710be566d0890d57fbfdc63019882') in 0.038425 seconds
+  Import took 0.044854 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009381 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Jamal Kamusoko\Documents\GitHub\PatientZero.RE\Patient_Zero\Library\PackageCache\com.unity.ads@3.4.5\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity\Hub\Editor\2020.2.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.606 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1934 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.0 MB.
+System memory in use after: 132.1 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 2484.
+Total: 3.976100 ms (FindLiveObjects: 0.293300 ms CreateObjectMapping: 0.100600 ms MarkObjects: 3.402000 ms  DeleteObjects: 0.178600 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

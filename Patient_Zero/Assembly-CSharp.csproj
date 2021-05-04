@@ -81,6 +81,7 @@
      <Compile Include="Assets\Scripts\Explosions_&amp;_Impacts\ImpactScript.cs" />
      <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableParameter.cs" />
      <Compile Include="Assets\LevelDesign\SimplePoly - Town Pack\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsBase.cs" />
+     <Compile Include="Assets\Scripts\HealthBar.cs" />
      <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableConversation.cs" />
      <Compile Include="Assets\Enviroment\enviroment\Office building\scripts\Door.cs" />
      <Compile Include="Assets\Scripts\FPSController\Weapon_Scripts\AutomaticGunScriptLPFP.cs" />
@@ -94,6 +95,7 @@
      <Compile Include="Assets\Scripts\ChangeState.cs" />
      <Compile Include="Assets\LevelDesign\Soja Exiles\SE Basic Assets\Scripts and Animations\Windows\opencloseWindow.cs" />
      <Compile Include="Assets\DialogueEditor\Assets\Scripts\UI\ConversationManager.cs" />
+     <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\Scripts\Enemy\EnemyBehaviour.cs" />
      <Compile Include="Assets\LevelDesign\Soja Exiles\Hospital Medical Office Modular\Scripts &amp; Animations\StretcherOpenClose.cs" />
      <Compile Include="Assets\DialogueEditor\Assets\Scripts\Connection.cs" />
@@ -108,9 +110,11 @@
      <Compile Include="Assets\DialogueEditor\Assets\Scripts\NodeEventHolder.cs" />
      <Compile Include="Assets\Scripts\FPSController\Weapon_Scripts\HandgunScriptLPFP.cs" />
      <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableCondition.cs" />
+     <Compile Include="Assets\Scripts\LiftScript.cs" />
      <Compile Include="Assets\DialogueEditor\Assets\Scripts\Condition.cs" />
      <Compile Include="Assets\LevelDesign\Soja Exiles\SE Basic Assets\Scripts and Animations\Windows\opencloseWindow1.cs" />
-     <Compile Include="Assets\Scripts\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\PickUp.cs" />
+     <Compile Include="Assets\Scripts\Enemy\EnemyHealth.cs" />
      <Compile Include="Assets\LevelDesign\Soja Exiles\Hospital Medical Office Modular\Scripts &amp; Animations\openclosedouble.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />

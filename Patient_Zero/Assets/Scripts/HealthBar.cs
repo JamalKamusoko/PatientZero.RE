@@ -5,46 +5,21 @@ using UnityEngine.UI;
 
 public class HealthBar : MonoBehaviour
 {
-    private float fillAmount;
 
-    [SerializeField]
-    private float lerpSpeed;
+	public Slider slider;
+	public Image fill;
 
-    [SerializeField]
-    private Image content;
+	public void SetMaxHealth(int health)
+	{
+		slider.maxValue = health;
+		slider.value = health;
 
-  
+	}
 
-    public float currentHealth { get; set; }
+    public void SetHealth(int health)
+	{
+		slider.value = health;
 
-    public float Value
-    {
-        set
-        {
-            fillAmount = Map(value, 0, currentHealth, 0, 1);
-        }
-    }
+	}
 
-    void Start()
-    {
-        
-    }
-    void Update()
-    {
-        HandleBar();
-    }
-
-    private void HandleBar()
-    {
-        if (fillAmount != content.fillAmount)
-        {
-            content.fillAmount = Mathf.Lerp(content.fillAmount, fillAmount, Time.deltaTime * lerpSpeed);
-        }
-        
-    }
-
-    private float Map(float value, float inMin, float inMax, float outMin, float outMax)
-    {
-        return (value - inMin) * (outMax - outMin) / (inMax - inMin) + outMin;
-    }
 }

@@ -15,6 +15,7 @@ TagManager:
   - Metal
   - ExplosiveBarrel
   - enemy
+  - Enemy
   layers:
   - Default
   - TransparentFX

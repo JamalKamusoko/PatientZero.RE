@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637555775690472569
+      ticks: 637556686781274855
     m_Hash: 2024708995
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -78,6 +78,8 @@ m_PackageAssets:
         - 3.5.0
         - 3.5.2
         - 3.6.1
+        - 3.7.0
+        - 3.7.1
         compatible:
         - 0.0.3
         - 0.0.4
@@ -116,6 +118,8 @@ m_PackageAssets:
         - 3.5.0
         - 3.5.2
         - 3.6.1
+        - 3.7.0
+        - 3.7.1
         verified: 3.6.1
       dependencies:
       - name: com.unity.ugui
@@ -313,6 +317,7 @@ m_PackageAssets:
         - 1.3.7
         - 1.3.8
         - 1.3.9
+        - 1.5.7
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -325,6 +330,7 @@ m_PackageAssets:
         - 2.1.0-preview.6
         compatible:
         - 1.3.9
+        - 1.5.7
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -828,6 +834,7 @@ m_PackageAssets:
         - 5.0.0-pre.7
         - 5.0.0-pre.10
         - 5.0.1
+        - 5.0.3
         compatible:
         - 4.0.2
         - 4.0.3
@@ -855,6 +862,7 @@ m_PackageAssets:
         - 5.0.0-pre.7
         - 5.0.0-pre.10
         - 5.0.1
+        - 5.0.3
         verified: 4.5.0
       dependencies:
       - name: com.unity.settings-manager
@@ -1307,6 +1315,7 @@ m_PackageAssets:
         - 1.5.4
         - 1.6.0-pre.1
         - 1.6.0-pre.3
+        - 1.6.0-pre.4
         compatible:
         - 1.4.6
         - 1.4.7
@@ -1323,6 +1332,7 @@ m_PackageAssets:
         - 1.5.4
         - 1.6.0-pre.1
         - 1.6.0-pre.3
+        - 1.6.0-pre.4
         verified: 1.4.7
       dependencies:
       - name: com.unity.modules.director
